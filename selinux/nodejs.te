@@ -1,5 +1,12 @@
 policy_module(nodejs, 1.0.0)
 
+require {
+	type net_conf_t;
+	type httpd_sys_content_t;
+	type node_t;
+	type ntop_port_t;
+}
+
 ########################################
 #
 # Declarations
